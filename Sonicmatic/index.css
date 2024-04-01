@@ -17,6 +17,10 @@ a{
     color: white;
 }
 
+iframe{
+    height: 250px;
+}
+
 footer{
     margin-top: auto;
 }
