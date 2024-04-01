@@ -6,22 +6,22 @@
         "featureDescription":"This is just a temporary card to show how an actual video looks in these cards."
     },
     {
-        "videoURL":"<iframe src=\"https: //umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=648abec2-b2d3-4ccb-bb23-2b5c7b7d5ba7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"artist_leader_board.webm\"></iframe>",
+        "videoURL":"<iframe src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=648abec2-b2d3-4ccb-bb23-2b5c7b7d5ba7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"artist_leader_board.webm\"></iframe>",
         "feature":"Artist Leaderboard",
         "featureDescription":"Users can see which artist they listen to the most! This is measured by the number of songs in their playlists by that artist."
     },
     {
-        "videoURL":"<iframe src=\"https: //umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=7f55b132-f5a0-47ea-866b-6a701d458918&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"artist_profile.webm\"></iframe>",
+        "videoURL":"<iframe src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=7f55b132-f5a0-47ea-866b-6a701d458918&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"artist_profile.webm\"></iframe>",
         "feature":"Artist profile",
         "featureDescription":"The artist has a profile from which they can upload songs to the database, to share with other users."
     },
     {
-        "videoURL":"<iframe src=\"https: //umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=b33bff66-0e68-43b4-97b2-cece99ca1153&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"browse_catalog.webm\"></iframe>",
+        "videoURL":"<iframe src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=b33bff66-0e68-43b4-97b2-cece99ca1153&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"browse_catalog.webm\"></iframe>",
         "feature":"Browsable catalog",
         "featureDescription":"Users can quickly browse the database for whatever song they want to listen to."
     },
     {
-        "videoURL":"<iframe src=\"https: //umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
+        "videoURL":"<iframe src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
         "feature":"Community Database",
         "featureDescription":"Our app has a database full of music available for all users."
     },
