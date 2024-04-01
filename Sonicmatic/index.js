@@ -25,18 +25,18 @@ function showFeatures(){
   })
 }
 
-function videoCard(index, video_id){
+function videoCard(index, thing){
   console.log("videoCard called")
   return `
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-        <h5 class="card-title">Feature ${index +1}</h5>
-        <p class="card-text">Description for Feature 1</p>
+        <h5 class="card-title">${thing.feature}</h5>
+        <p class="card-text">${thing.featureDescription}</p>
         <div class="embed-responsive embed-responsive-16by9 card-video">
           <iframe
             class="embed-responsive-item"
-            src="https://www.youtube.com/embed/${video_id}"
+            src="https://www.youtube.com/embed/${thing.videoID}"
             allowfullscreen
           />
         </div>
