@@ -1,7 +1,7 @@
 [
 
     {
-        "videoURL":"<iframe src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=648abec2-b2d3-4ccb-bb23-2b5c7b7d5ba7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"artist_leader_board.webm\"></iframe>",
+        "videoURL":"<iframe src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=648abec2-b2d3-4ccb-bb23-2b5c7b7d5ba7&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"artist_leader_board.webm\"></iframe>",
         "feature":"Temp card",
         "featureDescription":"This is just a temporary card to show how an actual video looks in these cards."
     },
