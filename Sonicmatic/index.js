@@ -47,7 +47,7 @@ function videoCard(index, thing){
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <div class="embed-responsive embed-responsive-16by9 card-video">
+      <div class="embed-responsive embed-responsive-16by9 ">
         ${thing.videoURL}
       </div>
         <h5 class="card-title">${thing.feature}</h5>

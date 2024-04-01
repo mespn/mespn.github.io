@@ -1,5 +1,5 @@
 iframe{
-    width:50%;
+    width:100%;
 }
 body{
     margin: 0;
@@ -35,16 +35,4 @@ footer{
 
 .hidden{
     display: none;
-}
-
-.bio-container{
-    display: flex;
-}
-
-.bio-container img{
-    flex: 1;
-}
-
-.bio-container p{
-    flex:2;
 }
