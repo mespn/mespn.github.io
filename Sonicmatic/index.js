@@ -1,4 +1,4 @@
-function showSection (sectionId) {
+function showSection (sectionId, linkId) {
   var sections = document.getElementsByTagName ('section');
   for (var i = 0; i < sections.length; i++) {
     if (sections[i].id === sectionId) {
@@ -6,7 +6,7 @@ function showSection (sectionId) {
     } else {
       sections[i].classList.add ('hidden');
     }
-  }
+  }  
 }
 
 function showFeatures(){
@@ -45,7 +45,7 @@ function videoCard(index, thing){
   }
   return `
   <div class="col">
-    <div class="card h-100">
+    <div class="card-custom h-100">
       <div class="card-body">
       <div class="embed-responsive embed-responsive-16by9 ">
         ${thing.videoURL}
@@ -56,4 +56,16 @@ function videoCard(index, thing){
     </div>
   </div>
   `
+}
+
+function makeActive(element){
+  cleanActive();
+  element.classList.add("active-custom")
+}
+
+function cleanActive(){
+  actives = document.getElementsByClassName("active-custom");
+  for (var i = 0; i < actives.length; i++) {
+    actives[i].classList.remove("active-custom");
+  }
 }
