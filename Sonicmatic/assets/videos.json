@@ -1,6 +1,6 @@
 [
     {
-        "videoID":"<iframe src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" width=\"640\" height=\"360\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
+        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" width=\"100%\" height=\"200\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
         "feature":"Community Database",
         "featureDescription":"Our app has a database full of music available for all users."
     }
