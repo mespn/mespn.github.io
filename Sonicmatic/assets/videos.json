@@ -1,53 +1,53 @@
 [
     {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
+        "videoURL":"",
+        "feature":"Artist Leaderboard",
+        "featureDescription":"Users can see which artist they listen to the most! This is measured by the number of songs in their playlists by that artist."
+    },
+    {
+        "videoURL":"",
+        "feature":"Artist profile",
+        "featureDescription":"The artist has a profile from which they can upload songs to the database, to share with other users."
+    },
+    {
+        "videoURL":"",
+        "feature":"Browsable catalog",
+        "featureDescription":"Users can quickly browse the database for whatever song they want to listen to."
+    },
+    {
+        "videoURL":"",
         "feature":"Community Database",
         "featureDescription":"Our app has a database full of music available for all users."
     },
     {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
+        "videoURL":"",
+        "feature":"Create and remove from playlist",
+        "featureDescription":"A logged-in user can create and remove playlists."
     },
     {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
+        "videoURL":"",
+        "feature":"Dark/Light mode toggle",
+        "featureDescription":"Users can change between a dark and a light mode in the app's settings."
     },
     {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
+        "videoURL":"",
+        "feature":"Music Player",
+        "featureDescription":"The user can play music in the app. The Music Player allows for full user control: volume control, skipping, going back, seeking, playing and pausing music."
     },
     {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
+        "videoURL":"",
+        "feature":"Sort songs",
+        "featureDescription":"The user can sort songs in their playlists by title or artist."
     },
     {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
+        "videoURL":"",
+        "feature":"User listener profile",
+        "featureDescription":"Our app allows users to log in and create playlists with their favourite songs."
     },
     {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
-    },
-    {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
-    },
-    {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
-    },
-    {
-        "videoURL":"<iframe class=\"card-img-top\" src=\"https://umanitoba-my.sharepoint.com/personal/gabore_myumanitoba_ca/_layouts/15/embed.aspx?UniqueId=39732882-0a81-4694-abd4-467dc4e95e08&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create\" frameborder=\"0\" scrolling=\"no\" allowfullscreen title=\"community_database.webm\"></iframe>",
-        "feature":"Community Database",
-        "featureDescription":"Our app has a database full of music available for all users."
+        "videoURL":"",
+        "feature":"User uploads",
+        "featureDescription":"Our app allows non-artist users to upload songs that they have in their local storage and mix them in playlists with songs from the database."
     }
     
     
