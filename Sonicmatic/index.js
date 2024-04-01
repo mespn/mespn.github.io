@@ -10,8 +10,6 @@ function showSection (sectionId) {
 }
 
 function showFeatures(){
-  console.log('show features called');
-
   fetch("./assets/videos.json").then(response => response.json())
   .then(data =>{
     for (var i = 0; i < data.length; i++) {
@@ -26,7 +24,6 @@ function showFeatures(){
 }
 
 function videoCard(index, thing){
-  console.log("videoCard called")
   return `
   <div class="col">
     <div class="card h-100">
@@ -34,11 +31,7 @@ function videoCard(index, thing){
         <h5 class="card-title">${thing.feature}</h5>
         <p class="card-text">${thing.featureDescription}</p>
         <div class="embed-responsive embed-responsive-16by9 card-video">
-          <iframe
-            class="embed-responsive-item"
-            src="https://www.youtube.com/embed/${thing.videoID}"
-            allowfullscreen
-          />
+          ${thing.videoURL}
         </div>
       </div>
     </div>
