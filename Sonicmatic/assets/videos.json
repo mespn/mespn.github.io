@@ -1,7 +1,7 @@
 [
 
     {
-        "videoURL":"<iframe src=\"https://www.youtube.com/embed/dQw4w9WgXcQ?si=RyrAI_I3YQzlUo2X\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+        "videoURL":"<iframe src=\"https://www.youtube.com/embed/EE-xtCF3T94?si=bgmXsJSgI7xtj8gF\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "feature":"Temp card",
         "featureDescription":"This is just a temporary card to show how an actual video looks in these cards."
     },
@@ -58,4 +58,3 @@
     
     
 ]
-
