@@ -45,5 +45,3 @@ function videoCard(index, video_id){
   </div>;
   `
 }
-
-showFeatures()
