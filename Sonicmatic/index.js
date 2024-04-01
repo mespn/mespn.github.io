@@ -35,6 +35,6 @@ function videoCard(index, thing){
         <p class="card-text">${thing.featureDescription}</p>
       </div>
     </div>
-  </div>;
+  </div>
   `
 }
