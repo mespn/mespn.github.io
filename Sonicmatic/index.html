@@ -15,7 +15,7 @@
     <title>Sonicmatic</title>
 </head>
 <body onload="showFeatures()">
-    <header class="bg-tertiary py-4 py-2">
+    <header class="bg-light py-2 px-4">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid justify-content-between">
                 <div>
@@ -28,16 +28,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse mx-4" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class = "nav-item">
                             <a class="nav-link" href="#" onclick="showSection('vision'); makeActive(this);">Our Vision</a>
                         </li>
                         <li class = "nav-item">
-                            <a class="nav-link" href="#" onclick="showSection('members'); makeActive(this);">Developers</a>
+                            <a class="nav-link" href="#" onclick="showSection('members'); makeActive(this);">Contributors</a>
                         </li>
                         <li class = "nav-item">
                             <a class="nav-link active-custom" href="#" onclick="showSection('features'); makeActive(this)">Our features</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class="nav-link" href="#" onclick="showSection('postmortem'); makeActive(this)">Postmortem</a>
                         </li>
                     </ul>
                 </div>
@@ -47,47 +50,52 @@
 
     <div id="main-content" class="bg-secondary">
         <section id="vision" class="p-4 bg-secondary hidden">
-            <h2>Vision</h2>
-            <p class="lead"> In a world of enchanting language of melodies, Sonicmatic aims to be a music management platform that 
-                simplifies the music listening experience. Sonicmatic is a space where users can listen to their own or on 
-                demand music while curating their library of songs and sharing their musical experiences with other listeners. </p>
+            <div class="container">
+                <h2>Vision</h2>
+                <p class="lead"> In a world of enchanting language of melodies, Sonicmatic aims to be a music management platform that 
+                    simplifies the music listening experience. Sonicmatic is a space where users can listen to their own or on 
+                    demand music while curating their library of songs and sharing their musical experiences with other listeners. </p>
 
-            <p> This platform will allow its diverse users to have the complete music listening experience, as they listen to the songs they have and discover new music from our database. 
-                They will be able to organize these songs in custom lists or sort them by genre or artists. Moreover, the users will also get to listen to the songs they love with the people 
-                close to them. Our chat feature allows users to share the songs they are listening to with their friends individually or as a group. Listeners can also review and show their 
-                love for their favorite artists and songs and watch them rise on the platform's leaderboards.</p>
+                <p> This platform will allow its diverse users to have the complete music listening experience, as they listen to the songs they have and discover new music from our database. 
+                    They will be able to organize these songs in custom lists or sort them by genre or artists. Moreover, the users will also get to listen to the songs they love with the people 
+                    close to them. Our chat feature allows users to share the songs they are listening to with their friends individually or as a group. Listeners can also review and show their 
+                    love for their favorite artists and songs and watch them rise on the platform's leaderboards.</p>
 
-            <p> Sonicmatic not only allows listeners to enjoy but also offers artists to share their music with all users by uploading it to our database, as singles or albums. Artists will be
-                able to view stats such as how many people are listening to them, which songs are the most popular, how many times their music has been shared and what their listeners think of
-                them.</p>
+                <p> Sonicmatic not only allows listeners to enjoy but also offers artists to share their music with all users by uploading it to our database, as singles or albums. Artists will be
+                    able to view stats such as how many people are listening to them, which songs are the most popular, how many times their music has been shared and what their listeners think of
+                    them.</p>
 
-            <p> This platform is designed for everyone who listens to and shares music. This includes people who enjoy a few songs to hardcore audiophiles with large libraries of music. For new 
-                listeners, this project provides an opportunity for them to discover new music and start a collection, whereas established music lovers have the tools to manage their collection 
-                and continue to seamlessly grow it. This project is also for artists to put their music into circulation and keep track of its success. Moreover, this platform is for listeners 
-                who like to share and discuss music, which they can do using the chat feature.  </p>
+                <p> This platform is designed for everyone who listens to and shares music. This includes people who enjoy a few songs to hardcore audiophiles with large libraries of music. For new 
+                    listeners, this project provides an opportunity for them to discover new music and start a collection, whereas established music lovers have the tools to manage their collection 
+                    and continue to seamlessly grow it. This project is also for artists to put their music into circulation and keep track of its success. Moreover, this platform is for listeners 
+                    who like to share and discuss music, which they can do using the chat feature.  </p>
 
-            <p> This project's value lies with the centralization of a person's music collection and the platform's powerful music sharing abilities. Firstly, a user can add their personal music
-                collection into this system and manage their library of music. They can then add more music into their collection seamlessly through the platform's provided library of music.
-                This allows for new listeners to easily start then grow their collection of music, or if they're already an established audiophile, continue to discover new music easily and 
-                instantly have it in their collection. Secondly, the chat feature provides great value in sharing music with friends and loved ones. This not only helps people to become exposed
-                to more music they might enjoy, but also come together and share valuable bonding moments with one another.</p>
+                <p> This project's value lies with the centralization of a person's music collection and the platform's powerful music sharing abilities. Firstly, a user can add their personal music
+                    collection into this system and manage their library of music. They can then add more music into their collection seamlessly through the platform's provided library of music.
+                    This allows for new listeners to easily start then grow their collection of music, or if they're already an established audiophile, continue to discover new music easily and 
+                    instantly have it in their collection. Secondly, the chat feature provides great value in sharing music with friends and loved ones. This not only helps people to become exposed
+                    to more music they might enjoy, but also come together and share valuable bonding moments with one another.</p>
 
-            <p> The success of this platform is based off two criteria. The first will be the total number of songs played (both owned by the user and published on our platform by artists) 
-                exceeding 2,500 monthly. The second will be the total time all users spend listening to music on our platform, exceeding 10,000 monthly.</p>
+                <p> The success of this platform is based off two criteria. The first will be the total number of songs played (both owned by the user and published on our platform by artists) 
+                    exceeding 2,500 monthly. The second will be the total time all users spend listening to music on our platform, exceeding 10,000 monthly.</p>
+            </div>
         </section>
 
         <section id="members" class="p-4 bg-secondary hidden">
-            <h2>Members</h2>
-
+        
             <div class="container">
+                <h2>
+                    Contributors
+                </h2>
                 <div id="member-card-container" class="row row-cols-1 row-cols-md-3 g-4">
                     <!--Member card-->
                     <div class="col">
                         <div class="card-custom h-100">
                             <div class="card-body d-flex flex-column justify-content-between">
-                                <img class="card-img-top" src="./assets/DharmPatel.png">
+                                <img class="card-img-top" src="./assets/DharmPatel.jpg">
                                 <h5 class="card-title align-bottom">Dharm Patel</h5>
                                 <p>Born in India, likes to program in free time and enjoys working in teams.</p>
+                                <p class="lead">During this project, he learned a better way to use merge commands and how it works in real life scenario.</p>
                             </div>
                         </div>
                     </div>
@@ -98,6 +106,7 @@
                                 <img class="card-img-top" src="./assets/ElanGabor.png">
                                 <h5 class="card-title">Elan Gabor</h5>
                                 <p>Born in Toronto and loves writing bios, he placed last in the 2009 Winnipeg open chess tournament. Now he makes OpenGL and Processing projects for fun. What a glow up.</p>
+                                <p class="lead">During this project, he learned a better way to use Gitlab and frequent usage plus proper implementations of design patterns. HSQLDB development skills also improved on.</p>
                             </div>
                         </div>
                     </div>
@@ -110,6 +119,7 @@
                                 <div>
                                     <h5 class="card-title">Manuel Espinoza</h5>
                                     <p>Born in Peru, he participated in multiple Hackathons and Game Jams since 2018 with no project to show for it. He can at least play the guitar.</p>
+                                    <p class="lead">During this project, Proper usage of git branches and commits. Also how to use git in a team setting in general. </p>
                                 </div>
                             </div>
                         </div>
@@ -121,12 +131,40 @@
         </section>
 
         <section id="features" class="bg-secondary p-4">
-            <h2 class="text-light">Features</h2>
             <div class="container">
+                <h2 class="text-light">Features</h2>
                 <div id="video-card-container" class="row row-cols-1 row-cols-md-3 g-4">
                 </div>
             </div>
         </section>
+
+        <section id="postmortem" class="bg-secondary p-4 hidden">
+            <div class="container">
+                <h2 class="text-light">Postmortem</h2>
+                <p>The sole area identified for improvement in our iteration two retrospective was the lack of code reviews. Regrettably we did not have any code reviews during iteration three’s 
+                    development. We saw code during video meetings, however there was no formal review, which is visible in our mix of coding styles and comment schemes. We believe this was due 
+                    to our small team; we all had many tasks to complete and code reviews unfortunately did not fit into our time budget. </p>
+                <p>We used Test Driven Development throughout iterations two and three, namely for the data layer, logic layer, and integrations with the logic layer. The pros of this were the isolated 
+                    testing and development of integral pieces of code. However, this was also a con, as data from the UI inputs was not tested and we encountered some unexpected data being sent to our 
+                    highly tested objects near the project deadline. </p>
+                <p>The development of the Bluetooth chat feature went awry during development. This was because it started during iteration three and we had no clear way of testing communication between a 
+                    device and an emulator, and with the project due date approaching this feature had to be scrapped. The developers of this feature did learn quite a bit about Bluetooth and socket 
+                    programming in an android environment which is a great takeaway. </p>
+                <p>If we had a chance to start over, we would do many code reviews, branch reviews, and start with features that were harder to complete. This would allow us to use peer oversight and fail 
+                    early so our future iterations would have less hectic developments. </p>
+
+                <p>The member's description can be found in the <strong class="clickable" onclick="showSection('members')"> Contributors </strong> section.</p>
+            </div>
+        </section>
+
     </div>
+
+    <script>
+        // Collapse navbar on click
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
 </body>
 </html>
