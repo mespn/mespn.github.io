@@ -41,3 +41,7 @@ footer{
     height: 100vh;
     color: white;
 }
+
+.card-img-top{
+    height: 400px;
+}
