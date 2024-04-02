@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid justify-content-between">
                 <div>
-                    <a class="navbar-brand mr-auto" href="#" onclick="showSection('features'); makeActive(this);">
+                    <a class="navbar-brand mr-auto" href="#" onclick="showSection('sonicmatic'); makeActive(this);">
                         <img src="./assets/logo.png" alt="Sonicmatic Logo" height="50" class="d-inline-block align-top mx-2">
                         <span class="text-primary h1">Sonicmatic</span>
                     </a>
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#" onclick="showSection('members'); makeActive(this);">Contributors</a>
                         </li>
                         <li class = "nav-item">
-                            <a class="nav-link active-custom" href="#" onclick="showSection('features'); makeActive(this)">Our features</a>
+                            <a class="nav-link" href="#" onclick="showSection('features'); makeActive(this)">Our features</a>
                         </li>
                         <li class = "nav-item">
                             <a class="nav-link" href="#" onclick="showSection('postmortem'); makeActive(this)">Postmortem</a>
@@ -49,7 +49,33 @@
     </header>
 
     <div id="main-content" class="bg-secondary">
-        <section id="vision" class="p-4 bg-secondary hidden">
+
+        <section id="sonicmatic" class="py-2" height="100vh">
+            <div class="row px-4 py-6">
+                    <div class="col mx-6 bg-secondary">
+                        <div id="about" class="m-2 my-5">
+                            <h2>What is Sonicmatic?</h2>
+                            <p class="lead">Sonicmatic is a music player that provides you with a large music library. It also grants your the ability to listen to music in your device and for artists
+                                to share their work with the world!</p>
+                        </div>
+                        <div id="users" class="col m-2">
+                            <h2>Who is it for?</h2>
+                            <p>
+                                This platform is designed for everyone who listens to and shares music. This includes people who enjoy a few songs to hardcore audiophiles with large libraries of music. For new 
+                                listeners, this project provides an opportunity for them to discover new music and start a collection, whereas established music lovers have the tools to manage their collection 
+                                and continue to seamlessly grow it. This project is also for artists to put their music into circulation and keep track of its success. Moreover, this platform is for listeners who 
+                                like to share and discuss music, which they can do using the chat feature.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <img src="./assets/big-logo.png">
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="vision" class="p-4 hidden">
             <div class="container">
                 <h2>Vision</h2>
                 <p class="lead"> In a world of enchanting language of melodies, Sonicmatic aims to be a music management platform that 
@@ -58,8 +84,7 @@
 
                 <p> This platform will allow its diverse users to have the complete music listening experience, as they listen to the songs they have and discover new music from our database. 
                     They will be able to organize these songs in custom lists or sort them by genre or artists. Moreover, the users will also get to listen to the songs they love with the people 
-                    close to them. Our chat feature allows users to share the songs they are listening to with their friends individually or as a group. Listeners can also review and show their 
-                    love for their favorite artists and songs and watch them rise on the platform's leaderboards.</p>
+                    close to them. </p>
 
                 <p> Sonicmatic not only allows listeners to enjoy but also offers artists to share their music with all users by uploading it to our database, as singles or albums. Artists will be
                     able to view stats such as how many people are listening to them, which songs are the most popular, how many times their music has been shared and what their listeners think of
@@ -91,35 +116,37 @@
                     <!--Member card-->
                     <div class="col">
                         <div class="card-custom h-100">
-                            <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-body d-flex flex-column">
                                 <img class="card-img-top" src="./assets/DharmPatel.jpg">
                                 <h5 class="card-title align-bottom">Dharm Patel</h5>
                                 <p>Born in India, likes to program in free time and enjoys working in teams.</p>
-                                <p class="lead">During this project, he learned a better way to use merge commands and how it works in real life scenario.</p>
+                                <p class="bold">During this project, he learned how to make better use of merge commands and how they work in real life scenarios.</p>
                             </div>
                         </div>
                     </div>
                     <!--Member card-->
                     <div class="col">
                         <div class="card-custom h-100">
-                            <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-body d-flex flex-column ">
                                 <img class="card-img-top" src="./assets/ElanGabor.png">
-                                <h5 class="card-title">Elan Gabor</h5>
-                                <p>Born in Toronto and loves writing bios, he placed last in the 2009 Winnipeg open chess tournament. Now he makes OpenGL and Processing projects for fun. What a glow up.</p>
-                                <p class="lead">During this project, he learned a better way to use Gitlab and frequent usage plus proper implementations of design patterns. HSQLDB development skills also improved on.</p>
+                                <div>
+                                    <h5 class="card-title">Elan Gabor</h5>
+                                    <p>Born in Toronto and loves writing bios, he placed last in the 2009 Winnipeg open chess tournament. Now he makes OpenGL and Processing projects for fun. What a glow up.</p>
+                                    <p class="bold">During this project, he learned how to make better use of Gitlab and use proper implementations of design patterns. His HSQLDB development skills were also improved on.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!--Member card-->
                     <div class="col">
                         <div class="card-custom h-100">
-                            <div class="card-body d-flex flex-column justify-content-between">
+                            <div class="card-body d-flex flex-column">
                                 <img class="card-img-top" src=".\assets\ManuelEspinoza.png">
                                 
                                 <div>
                                     <h5 class="card-title">Manuel Espinoza</h5>
                                     <p>Born in Peru, he participated in multiple Hackathons and Game Jams since 2018 with no project to show for it. He can at least play the guitar.</p>
-                                    <p class="lead">During this project, Proper usage of git branches and commits. Also how to use git in a team setting in general. </p>
+                                    <p class="bold">During this project, he learned how to properly use git branches and commits. He also learned how to use git in a team setting.</p>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +157,7 @@
             
         </section>
 
-        <section id="features" class="bg-secondary p-4">
+        <section id="features" class="bg-secondary p-4 hidden">
             <div class="container">
                 <h2 class="text-light">Features</h2>
                 <div id="video-card-container" class="row row-cols-1 row-cols-md-3 g-4">
@@ -152,8 +179,6 @@
                     programming in an android environment which is a great takeaway. </p>
                 <p>If we had a chance to start over, we would do many code reviews, branch reviews, and start with features that were harder to complete. This would allow us to use peer oversight and fail 
                     early so our future iterations would have less hectic developments. </p>
-
-                <p>The member's description can be found in the <strong class="clickable" onclick="showSection('members')"> Contributors </strong> section.</p>
             </div>
         </section>
 
