@@ -1,4 +1,5 @@
 function showSection (sectionId, linkId) {
+  collapseNavbar();
   var sections = document.getElementsByTagName ('section');
   for (var i = 0; i < sections.length; i++) {
     if (sections[i].id === sectionId) {
@@ -68,4 +69,8 @@ function cleanActive(){
   for (var i = 0; i < actives.length; i++) {
     actives[i].classList.remove("active-custom");
   }
+}
+
+function collapseNavbar () {
+  $ ('#navbarSupportedContent').collapse ('hide');
 }
