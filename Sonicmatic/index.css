@@ -25,6 +25,10 @@ footer{
     cursor: pointer;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 #feature-list{
     list-style: none;
 }
