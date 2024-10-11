@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Incripciones ERS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="output.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <nav class="bg-gray-200 border-gray-200">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <h1 class="self-center text-4xl font-semibold whitespace-nowrap">ERS</h1>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200   " aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="font-medium flex flex-col p-4 md:py-2 mt-4 border border-gray-100 rounded-lg bg-gray-200 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                        <li>
+                        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:py-2" aria-current="page">Bienvenidos</a>
+                        </li>
+                        <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-2">Servicios</a>
+                        </li>
+                        <li>
+                        <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-2">Entrenamientos y Cursos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-2">Contáctenos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-blue-200 md:border-0 md:bg-gray-700 md:text-white md:hover:text-blue-700 md:py-2">Inscripciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="form" class="grid grid-cols-[20%_40%_40%] grid-row-3 m-6 p-2">
+            <div class="col-span-3 py-2 mt-1 mb-7 justify-self-center" id="titulo">
+                <h2 class="text-5xl font-bold">Inscripciones</h2>
+            </div>
+            
+            <div class="mx-3 row-span-2 justify-self-end py-2">
+                <a href="#" class="text-gray-400 text-s hover:underline hover:text-gray-600">
+                    >Inscribir múltiples participantes
+                </a>
+            </div>
+
+            <div id="doc-identidad" class="w-5/6 mx-2 px-3 justify-self-end">
+
+                <div id="field-tipo-documento" class="p-1 px-2">
+                    <fieldset class="radio-group">
+                        <div class="grid cols-2 align-content-center">
+                            <legend class="col-start-1 font-semibold justify-self-start">Tipo de documento<span class="text-red-500">*</span></legend>
+                            <p id="tipo-obligatorio" class="col-start-2 text-red-500 text-sm justify-self-end hidden">Este campo es obligatorio</p>
+                        </div>
+                        
+                        <label for="dni" class="mr-3">
+                            <input name="tipo-documento" type="radio" id="dni" class="mx-1" value="dni">DNI</input>
+                        </label>
+                        <label for="extranjeria" class="mr-3">
+                            <input name="tipo-documento" type="radio" id="extranjeria" class="mx-1" value="extranjeria">Carné de extranjería</input>
+                        </label>
+                        <label for="pasaporte" class="mr-3">
+                            <input name="tipo-documento" type="radio" id="pasaporte" class="mx-1" value="pasaporte">Pasaporte</input>
+                        </label>
+                    </fieldset>
+                </div>
+
+                <div id="field-numero-doc" class="mt-2.5 p-1 px-2">
+                    <div class="grid cols-2 align-content-center">
+                        <label for="num-doc" class="col-start-1 font-semibold mb-2"> Número de Documento<span class="text-red-500">*</span></label>
+                        <p id="numero-doc-obligatorio" class="col-start-2 text-red-500 text-sm justify-self-end hidden">Este campo es obligatorio</p>
+                    </div>
+                    <input type="text" id="num-doc" class="border rounded w-full py-2 px-3 text-gray-900 leading-tight">
+                </div>
+
+                <div id="field-numero-fotocheck" class="mt-1 p-1 px-2">
+                    <label for="fotocheck" class="block font-semibold">
+                        Fotocheck
+                        <input type="text" id="fotocheck" class="border rounded w-full py-2 px-3 text-gray-900 leading-tight">
+                    </label>
+                </div>
+
+                <div id="boton-id" class="flex flex-col items-center my-5">
+                    <button onclick="mostrarDatos()" class="bg-blue-500 hover:bg-blue-700 text-white w-1/2 font-bold py-2 px-4 rounded-full align-center">
+                        Continuar
+                    </button>
+                </div>
+            </div>
+
+            <div id="datos-participante" class="fila-1 flex flex-col hidden">
+                <div id="nombre-apellidos" class="flex">
+                    <label for="nombre" class="block font-semibold mb-2 mx-1 px-2">
+                        Nombres
+                        <input type="text" id="nombre" class="mb-2 border rounded w-full py-2 px-3 text-gray-900 leading-tight">
+                    </label>
+                    <label for="apellidos" class="block font-semibold mb-2 mx-1 px-2">
+                        Apellidos
+                        <input type="text" id="apellidos" class="mb-2 border rounded w-full py-2 px-3 text-gray-900 leading-tight">
+                    </label>
+                </div>
+
+                <label for="correo" class="block font-semibold mb-2 px-3">
+                    Correo Electrónico
+                    <input type="text" id="correo" class="mb-2 border rounded w-full py-2 px-3 text-gray-900 leading-tight">
+                </label>
+
+                <label for="celular" class="block font-semibold mb-2 px-3">
+                    Número de celular
+                    <input type="text" id="celular" class="mb-2 border rounded w-full py-2 px-3 text-gray-900 leading-tight">
+                </label>
+
+                <label for="empresa" class="block font-semibold mb-2 px-3">
+                    Empresa
+                    <input list="lista-empresas" type="text" id="empresa" class="mb-2 border rounded w-full py-2 px-3 text-gray-900 leading-tight">
+                    <datalist id="lista-empresas">
+                        <option value="Yanacocha"></option>
+                        <option value="Newmont"></option>
+                        <option value="ERS"></option>
+                        <option value="Bechtel"></option>
+                    </datalist>
+                </label>
+
+                <div id="boton-datos" class="flex flex-col items-center">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white w-1/2 font-bold py-2 px-4 rounded-full align-center">
+                        Siguiente
+                    </button>
+                </div>
+                
+            </div>
+
+            <div id="seleccion-curso" class="col-start-2 col-span-2 hidden">
+                <div id="dropdown-curso">
+                    <label for="" class="block font-semibold mb-2 px-3">Seleccione el curso</label>
+                        <input list="lista-cursos" type="text" id="curso" class="mb-2 border rounded w-1/4 py-2 px-3 text-gray-900 leading-ti">
+                        <datalist id="lista-cursos">
+                            <option value="Inducción General"></option>
+                        </datalist>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
