@@ -66,3 +66,45 @@ function limpiarFormato(){
         labels[i].classList.remove("label-error")
     }
 }
+
+function selected(element){
+    elementoPadre = element.parentElement.parentElement
+    if (element.checked){
+        elementoPadre.classList.remove("bg-blue-400")
+        elementoPadre.classList.add("bg-green-400")
+        elementoPadre.classList.remove("hover:bg-blue-600")
+        elementoPadre.classList.add("hover:bg-green-600")
+    }
+    else{
+        elementoPadre.classList.remove("bg-green-400")
+        elementoPadre.classList.add("bg-blue-400")
+        elementoPadre.classList.remove("hover:bg-green-600")
+        elementoPadre.classList.add("hover:bg-blue-600")
+    }
+}
+
+function mostrarSeleccionCurso(){
+    ocultarSesiones()
+    let primera_fila = document.getElementsByClassName("fila-1")
+    for (let i = 0; i < primera_fila.length; i++) {
+        primera_fila[i].classList.add("hidden")
+    }
+    document.getElementById("seleccion-curso").classList.remove("hidden")
+}
+
+function ocultarSesiones(){
+    console.log("ocultando")
+    let sesiones = document.getElementsByClassName("sesion")
+    // debugger
+    for (let i = 0; i<sesiones.length; i++){
+        sesiones[i].classList.add("hidden")
+    }
+}
+
+function mostrarSesiones(){
+    let sesiones = document.getElementsByClassName("sesion")
+    // debugger
+    for (let i = 0; i<sesiones.length; i++){
+        sesiones[i].classList.remove("hidden")
+    }
+}

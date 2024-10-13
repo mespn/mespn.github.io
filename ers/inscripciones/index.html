@@ -48,13 +48,13 @@
                 <h2 class="text-5xl font-bold">Inscripciones</h2>
             </div>
             
-            <div class="mx-3 row-span-2 justify-self-end py-2">
+            <div id="toggle-num-inscripciones" class="mx-3 row-span-2 justify-self-end py-2">
                 <a href="#" class="text-gray-400 text-s hover:underline hover:text-gray-600">
                     >Inscribir múltiples participantes
                 </a>
             </div>
 
-            <div id="doc-identidad" class="w-5/6 mx-2 px-3 justify-self-end">
+            <div id="doc-identidad" class="fila-1 w-5/6 mx-2 px-3 justify-self-end">
 
                 <div id="field-tipo-documento" class="p-1 px-2">
                     <fieldset class="radio-group">
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div id="datos-participante" class="fila-1 flex flex-col hidden">
+            <div id="datos-participante" class="fila-1 flex flex-col mx-2 hidden">
                 <div id="nombre-apellidos" class="flex">
                     <label for="nombre" class="block font-semibold mb-2 mx-1 px-2">
                         Nombres
@@ -131,21 +131,145 @@
                 </label>
 
                 <div id="boton-datos" class="flex flex-col items-center">
-                    <button class="bg-blue-500 hover:bg-blue-700 text-white w-1/2 font-bold py-2 px-4 rounded-full align-center">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white w-1/2 font-bold py-2 px-4 rounded-full align-center" onclick="mostrarSeleccionCurso()">
                         Siguiente
                     </button>
                 </div>
-                
             </div>
 
-            <div id="seleccion-curso" class="col-start-2 col-span-2 hidden">
+            <div id="seleccion-curso" class="col-start-2 col-span-2 mx-2 px-3 hidden">
                 <div id="dropdown-curso">
-                    <label for="" class="block font-semibold mb-2 px-3">Seleccione el curso</label>
-                        <input list="lista-cursos" type="text" id="curso" class="mb-2 border rounded w-1/4 py-2 px-3 text-gray-900 leading-ti">
-                        <datalist id="lista-cursos">
-                            <option value="Inducción General"></option>
-                        </datalist>
+                    <label for="" class="block font-semibold mb-2">Seleccione el curso</label>
+                        <!-- <input list="lista-cursos" type="text" id="curso" class="mb-2 border rounded w-1/4 py-2 px-3 text-gray-900 leading-ti"> -->
+                        <select id="lista-cursos" class="w-1/2 border rounded-md" onchange="mostrarSesiones()">
+                            <option value="">-</option>
+                            <option value="Inducción General">Inducción General</option>
+                        </select>
                     </label>
+                </div>
+
+                <div id="seccion-calendario" class="my-6 py-2">
+                    <div id="encabezado-calendario" class="grid grid-cols-[20%_60%_20%]">
+                        <div id="flechas" class="p-1 w-full grid grid-cols-5">
+                            <div class="">
+                                <button id="mes-anterior" class="border bg-gray-100 w-full">
+                                    <
+                                </button>
+                            </div>
+                            <div class="">
+                                <button id="mes-siguiente" class="border bg-gray-50 w-full">
+                                    >
+                                </button>
+                            </div>
+                        </div>
+
+                        <div id="mes" class="justify-self-center">
+                            <h1 class="text-xl font-bold">Octubre 2024</h1>
+                        </div>
+
+                        <div id="hoy" class="w-full">
+                            
+                        </div>
+                    </div>
+                    
+                    <div id="calendario" class="my-4">
+                        <table id="cuerpo-calendario" class="w-full table-fixed">
+                            <thead class="">
+                                <th id="label-domingo" class="w-1/7">Domingo</th>
+                                <th id="label-lunes" class="w-1/7">Lunes</th>
+                                <th id="label-martes" class="w-1/7">Martes</th>
+                                <th id="label-miercoles" class="w-1/7">Miércoles</th>
+                                <th id="label-jueves" class="w-1/7">Jueves</th>
+                                <th id="label-viernes" class="w-1/7">Viernes</th>
+                                <th id="label-sabado" class="w-1/7">Sabado</th>
+                            </thead>
+                            <tr>
+                                <td class="min-h-24 h-24 text-center align-top "></td>
+                                <td class="min-h-24 h-24 text-center align-top "></td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">1</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">2</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">3</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">4</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">5</td>
+                            </tr>
+                            <tr>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">6</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">7</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">8</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">9</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">10</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">11</td>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">12</td>
+                            </tr>
+                            <tr>
+                                <td class="min-h-24 h-24 text-center align-top border text-gray-400">13</td>
+                                <td class="min-h-24 h-24 text-center align-top border">
+                                    14
+                                    <div class="sesion bg-blue-400 text-white text-xs p-1 mx-1 my-4 rounded-md hover:bg-blue-600">
+                                        <label for="induccion-general-14-octubre" class="hover:cursor-pointer">
+                                            <p class="font-semibold text-left">Inducción general</p>
+                                            <p class="font-light text-left">08:00 am</p>
+                                            <input id="induccion-general-14-octubre" name="sesion-seleccionada" type="checkbox" class="hidden" value="ig_20241021" oninput="selected(this)">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="min-h-24 h-24 text-center align-top border">15</td>
+                                <td class="min-h-24 h-24 text-center align-top border">16</td>
+                                <td class="min-h-24 h-24 text-center align-top border">17</td>
+                                <td class="min-h-24 h-24 text-center align-top border">18</td>
+                                <td class="min-h-24 h-24 text-center align-top border">19</td>
+                            </tr>
+                            <tr>
+                                <td class="min-h-24 h-24 text-center align-top border">20</td>
+                                <td class="min-h-24 h-24 text-center align-top border">
+                                    21
+                                    <div class="sesion bg-blue-400 text-white text-xs p-1 mx-1 my-4 rounded-md hover:bg-blue-600">
+                                        <label for="induccion-general-21-octubre" class="hover:cursor-pointer">
+                                            <p class="font-semibold text-left">Inducción general</p>
+                                            <p class="font-light text-left">08:00 am</p>
+                                            <input id="induccion-general-21-octubre" name="sesion-seleccionada" type="checkbox" class="hidden" value="ig_20241021" oninput="selected(this)">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="min-h-24 h-24 text-center align-top border">22</td>
+                                <td class="min-h-24 h-24 text-center align-top border">23</td>
+                                <td class="min-h-24 h-24 text-center align-top border">
+                                    24
+                                    <div class="sesion bg-blue-400 text-white text-xs p-1 mx-1 my-4 rounded-md hover:bg-blue-600">
+                                        <label for="induccion-general-24-octubre" class="hover:cursor-pointer">
+                                            <p class="font-semibold text-left">Inducción general</p>
+                                            <p class="font-light text-left">08:00 am</p>
+                                            <input id="induccion-general-24-octubre" name="sesion-seleccionada" type="checkbox" class="hidden" value="ig_20241021" oninput="selected(this)">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="min-h-24 h-24 text-center align-top border">25</td>
+                                <td class="min-h-24 h-24 text-center align-top border">26</td>
+                            </tr>
+                            <tr>
+                                <td class="min-h-24 h-24 text-center align-top border">27</td>
+                                <td class="min-h-24 h-24 text-center align-top border">
+                                    28
+                                    <div class="sesion bg-blue-400 text-white text-xs p-1 mx-1 my-4 rounded-md hover:bg-blue-600">
+                                        <label for="induccion-general-26-octubre" class="hover:cursor-pointer">
+                                            <p class="font-semibold text-left">Inducción general</p>
+                                            <p class="font-light text-left">08:00 am</p>
+                                            <input id="induccion-general-26-octubre" name="sesion-seleccionada" type="checkbox" class="hidden" value="ig_20241026" oninput="selected(this)">
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="min-h-24 h-24 text-center align-top border">29</td>
+                                <td class="min-h-24 h-24 text-center align-top border">30</td>
+                                <td class="min-h-24 h-24 text-center align-top border">31</td>
+                            </tr>
+                        </table>
+
+                        <div id="finalizar" class="grid grid-cols-1 my-2">
+                            <button id="boton-finalizar" class="w-1/6 font-bold py-2 px-4 rounded-full justify-self-end bg-blue-500 hover:bg-blue-700 text-white">
+                                Finalizar >
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
